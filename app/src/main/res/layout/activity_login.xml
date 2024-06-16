@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/login_page_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Please Login Here"
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/login_page_header"
         app:layout_constraintVertical_bias="0.192" />
 
     <EditText
@@ -48,7 +48,7 @@
         app:layout_constraintVertical_bias="0.155" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"

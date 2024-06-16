@@ -17,7 +17,7 @@ class LoginActivity: ComponentActivity() {
 
         val username:EditText=findViewById(R.id.username)
         val password:EditText=findViewById(R.id.password)
-        val button:Button=findViewById(R.id.button2)
+        val button:Button=findViewById(R.id.button)
 
         fun handleLogin(){
             println("button clicked")
