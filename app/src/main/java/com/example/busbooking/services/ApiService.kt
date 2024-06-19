@@ -5,6 +5,6 @@ import retrofit2.Call
 import retrofit2.http.GET
 
 interface ApiService {
-    @GET("/login")
+    @GET("/todos")
     fun getData():Call<ApiResponse>
 }
